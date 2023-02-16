@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '#include<stdio.h>' > $CFILE
+echo '#include<stdio.h>' > CFILE
