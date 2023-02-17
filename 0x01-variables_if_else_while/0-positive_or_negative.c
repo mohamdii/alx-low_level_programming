@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int n = 79;
-	
+	int n;
+	scanf("enter a number",&n);
 	if (n == 0){
 		printf("%d is zero\n",n);
 	} else if (n > 0) {
