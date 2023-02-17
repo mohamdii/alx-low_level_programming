@@ -4,7 +4,7 @@
  * 
  * Returing a value
  */
-int main(void)
+int main()
 {
 	int n;
 	
