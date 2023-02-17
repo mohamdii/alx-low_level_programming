@@ -10,7 +10,7 @@ int main(void)
 	int b = 2;
 	long int c =4;
 	long long int d =9;
-	printf("%c",sizeof(A));
+	printf("%c",sizeof(a));
 	return (0);
 }
 
