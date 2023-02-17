@@ -1,8 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * The function generates random numbers 
+ *
+ * tests the positivity
+ * 
+ * returns a value
+ */
+
 int main(void)
 {
 	int n;
