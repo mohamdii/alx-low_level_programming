@@ -6,6 +6,10 @@
 
 int main(void)
 {
+	char = A;
+	int = 2;
+	long int =4;
+	long long int =9;
 	printf("%d",sizeof());
 	return (0);
 }
