@@ -4,9 +4,9 @@
  * 
  * Returing a value
  */
-int main()
+int main(void)
 {
-	int n;
+	int n = 79;
 	
 	if (n == 0){
 		printf("%d is zero\n",n);
