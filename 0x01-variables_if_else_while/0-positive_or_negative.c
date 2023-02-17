@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * The function generates random numbers 
+ * main - Entry point
  *
- * tests the positivity
- * 
- * returns a value
+ * Return: Always 0 (Success)
  */
 
 int main(void)
