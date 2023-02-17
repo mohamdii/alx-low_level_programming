@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	size of();
+	sizeof();
 	return (0);
 }
 
