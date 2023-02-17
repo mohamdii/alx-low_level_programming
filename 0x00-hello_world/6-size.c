@@ -7,10 +7,10 @@
 int main(void)
 {
 	char a = "A";
-	int b = 2;
-	long int c =4;
-	long long int d =9;
-	float e =2.4;
+	int b =  2;
+	long int c = 4;
+	long long int d = 9;
+	float e = 2.4;
 
 	printf("Size of a char: %d byte(s)\n",sizeof(a));
 	printf("Size of an int: %d byte(s)\n",sizeof(b));
