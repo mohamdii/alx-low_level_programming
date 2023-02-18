@@ -14,4 +14,5 @@ int main(void)
 	{
 		putchar((i) + '0');
 	}
+	return (0);
 }
