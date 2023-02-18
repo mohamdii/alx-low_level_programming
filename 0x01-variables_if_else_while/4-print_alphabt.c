@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	char ch;
@@ -7,7 +13,7 @@ int main(void)
 
 	for (ch = 'a'; ch <='z'; ch++)
 	{
-		if (ch != 'q' || ch != 'e')
+		if (ch == 'q' || ch == 'e')
 		{
 			continue;
 		}
