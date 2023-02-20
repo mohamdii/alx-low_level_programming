@@ -16,13 +16,22 @@ int main(void)
 		{
 			if (i >= j)
 				continue;
-			putchar((i) + '0');
-			putchar((j) + '0');
-			putchar (',');
-			putchar (' ');
+			if (i == 8 && j == 9)
+			{
+				putchar((i) + '0');
+                        	putchar((j) + '0');	
+			}
+			else
+			{
+				putchar((i) + '0');
+                        	putchar((j) + '0');
+				putchar(',');
+				putchar(' ');
+			}
+		}
 		}
 
-	}
+
 	putchar('\n');
 	return (0);
 }
