@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
- * Funtion is to print
+ * main - check the code.
  *
- * alphabets x10
+ * Return: Always 0.
  */
+
 void print_alphabet_x10(void)
 {
-	int i,j;
+	int i, j;
 
 	for (i = 1; i <= 10; i++)
 	{

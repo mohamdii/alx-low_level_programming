@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * this fies is to include
+ *
+ * all headers required
+ */
+
 void _putchar();
 void print_alphabet(void);
 /*prints the alphabets 10 times */
