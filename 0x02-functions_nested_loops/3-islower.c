@@ -5,8 +5,14 @@
  */
 int _islower(int c)
 {
-	int c;
 
-	islower(c);
-	return(1);
+	if(islower(c))
+	{
+		putchar('1');
+	}
+	else
+	{
+		putchar('0');
+	}
+	return(0);
 }
