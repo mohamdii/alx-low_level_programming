@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include "main.h"
-/* this code is to write a function */
+/**
+ * short description
+ *
+ * for funtion prin
+ */
 
 /**
- * print_alphabet function 
+ * print_alphabet function
  *
- * printslower case alphabets 
+ * printslower case alphabets
  */
 void print_alphabet(void)
 {
