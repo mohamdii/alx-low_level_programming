@@ -7,8 +7,7 @@
  * Return: Always 0.
  */
 
-/* function to prin lower case alphabets */
-
+/* print_alphabet function lower case alphabets */
 void print_alphabet(void)
 {
 	int i;
