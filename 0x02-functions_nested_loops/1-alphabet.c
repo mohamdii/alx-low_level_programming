@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * this function is to 
+ * main - check the code
  *
- * print lower case alphabets
+ * Return: Always 0.
  */
+
+/* function to prin lower case alphabets */
 
 void print_alphabet(void)
 {
