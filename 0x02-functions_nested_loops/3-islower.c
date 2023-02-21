@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  *int _islower(int c); - Returns 1 if char is lower
