@@ -1,15 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-/**
- * short description
- *
- * for funtion prin
- */
 
 /**
- * print_alphabet function
- *
- * printslower case alphabets
+ * print_alphabet - is to print alhapets 
  */
 void print_alphabet(void)
 {
