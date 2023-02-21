@@ -9,6 +9,6 @@
 void print_alphabet(void);
 int main(void)
 {
-	putchar("_putchar");
+	printf("_putchar\n");
 	return (0);
 }
