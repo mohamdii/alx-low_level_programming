@@ -6,9 +6,9 @@
  * Return: Always 0.
  */
 
+void print_alphabet(void);
 int main(void)
 {
-	printf("_putchar\n");
-	
+	putchar('_putchar');
 	return (0);
 }
