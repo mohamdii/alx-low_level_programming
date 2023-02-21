@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - is to print alhapets 
+ * print_alphabet - is to print alhapets
  */
 void print_alphabet(void)
 {
