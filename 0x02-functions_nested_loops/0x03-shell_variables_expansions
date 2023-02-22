@@ -1,0 +1,16 @@
+include "main.h"
+
+/**
+ * add - function to add two digits
+ * @x: check number 
+ * @y: check number
+ *
+ * Return: value
+ */
+int add(int x, int y)
+{
+	int z;
+
+	z = x + y;
+	return (z);
+}
