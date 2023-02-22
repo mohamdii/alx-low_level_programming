@@ -13,6 +13,8 @@ void jack_bauer(void)
 	{
 		for (j = 0; j <= 3; j++)
 		{
+			if (j < i)
+				continue;
 			for (k = 0; k <= 59; k++)
 			{
 				if (k <= 9)
