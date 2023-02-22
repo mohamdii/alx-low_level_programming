@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * int _abs - to print absolute value of a variable
+ * _abs - to print absolute value of a variable
  * @x: Checks the number
  *
- * @z: Returns the absolute value of input x 
+ * Return: absolute number 
  */
 
 int _abs(int x)
