@@ -12,12 +12,13 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			k = i * j;
-			printf("%d",k);
 			if (j == 9)
 			{
+				printf("%d", k);
 			}
 			else
 			{
+				printf("%d", k);
 				_putchar(',');
 				_putchar(' ');
 			}
