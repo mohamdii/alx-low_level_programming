@@ -4,7 +4,7 @@
  * _abs - to print absolute value of a variable
  * @x: Checks the number
  *
- * Return: absolute number 
+ * Return: absolute number
  */
 
 int _abs(int x)
