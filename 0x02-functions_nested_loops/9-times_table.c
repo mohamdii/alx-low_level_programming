@@ -5,15 +5,18 @@
  */
 void times_table(void)
 {
-	int i, k;
+	int i, j, k;
 
-	for (i =0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-			k = i * 2;
-			_putchar(k + '0');
+		for (j = 0; j <= 9; j++)
+		{
+			k = i * j;
+			printf("%d", k);
 			_putchar(',');
 			_putchar(' ');
-		putchar('\n');
+		}
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
