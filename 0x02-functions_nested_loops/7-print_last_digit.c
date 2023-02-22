@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * print_last_digit - function prints last digit
  * @x: check number
