@@ -2,7 +2,7 @@
 
 /**
  * mul - function of multiplication
- * @a: checks a 
+ * @a: checks a
  *
  * @b: checks b
  * Return: result of multiplication
