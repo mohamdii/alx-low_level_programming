@@ -10,7 +10,7 @@ void more_numbers(void)
 	{
 		for (i = 0; i <= 14; i++)
 		{
-			_putchar(i + '0');
+			printf("%d", i);
 		}
 		_putchar('\n');
 	}
