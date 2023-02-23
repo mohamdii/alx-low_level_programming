@@ -1,3 +1,3 @@
 #include <stdio.h>
-
-int isupper(int c);
+#include <ctype.h>
+int _isupper(int c);
