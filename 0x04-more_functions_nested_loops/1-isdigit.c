@@ -1,7 +1,7 @@
 #include "main.h"
 
-/** _isdigit - function to check deget
- * @c: check input
+/** _isdigit - function to check digit
+ * @c: check input of charactar 
  *
  * Return: 1 if c is digit. 0 otherwise.
  */
