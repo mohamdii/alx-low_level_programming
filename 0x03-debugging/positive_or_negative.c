@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void positive_or_negative((int i)
+void positive_or_negative(int i)
 {
 
 srand(time(0));
