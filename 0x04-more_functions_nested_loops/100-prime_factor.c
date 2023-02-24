@@ -6,11 +6,11 @@
 
 int main(void)
 {
-	long int n;
+	long int n, maxfactor;
+	int div;
 
 	n = 612852475143;
-
-	long int div = 2, maxfactor;
+	div = 2;
 
 	while (n != 0)
 	{
