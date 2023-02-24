@@ -10,23 +10,23 @@ int main(void)
 
 	n = 612852475143;
 
-	long int div = 2, ans = 0, max;
+	long int div = 2, maxfactor;
 
 	while (n != 0)
 	{
-		if (n % div !=0)
+		if (n % div != 0)
 			div = div + 1;
-		else
+		else 
 		{
-			max = n;
+			maxfactor = n;
 			n = n / div;
 			if (n == 1)
 			{
-				printf("%ld\n", max);
-				ans = 1;
+				printf("%ld", maxfactor);
 				break;
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
