@@ -25,5 +25,4 @@ else
 printf("%d is negative\n", i);
 }
 
-return (0);
 }
