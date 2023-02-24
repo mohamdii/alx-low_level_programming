@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - finding prime factor
+/** 
+ * main - finding prime factor
  *
  * Return: 0 always
  */
@@ -16,7 +17,7 @@ int main(void)
 	{
 		if (n % div != 0)
 			div = div + 1;
-		else 
+		else
 		{
 			maxfactor = n;
 			n = n / div;
