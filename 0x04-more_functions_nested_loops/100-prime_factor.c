@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - finding prime factor
  *
  * Return: 0 always
