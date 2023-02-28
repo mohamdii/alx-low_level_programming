@@ -3,8 +3,10 @@
 #include <string.h>
 
 /**
+ * _atoi - change string into integers
+ * @s: check string
  *
- *
+ * Return: integer
  */
 int _atoi(char *s)
 {
