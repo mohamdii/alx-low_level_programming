@@ -2,13 +2,13 @@
 #include "2-strlen.c"
 
 /**
- * rev_string - reverses a string
+ * puts_half - reverses a string
  * @str: checks input
  */
 
 void puts_half(char *str)
 {
-	int i,j;
+	int i, j;
 
 	i = _strlen(str);
 
@@ -18,7 +18,7 @@ void puts_half(char *str)
 			putchar(*(str + j));
 	}
 	else
-		for (j = (i - 1) / 2; j <= i; j++)
+		for (j = ((i - 1) / 2) + 1; j <= i; j++)
 	{
 		putchar(*(str + j));
 	}
