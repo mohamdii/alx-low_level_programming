@@ -28,6 +28,8 @@ int _atoi(char *s)
 		if (s[i] == '-')
 			res = -res;
 		i++;
+		if (s[i] == ',')
+			break;
 	}
 	return (res);
 }
