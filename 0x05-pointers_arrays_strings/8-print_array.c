@@ -2,8 +2,8 @@
 
 /**
  * print_array - prints n elements of an array of integers
- * @a checks input
- * 
+ * @a: checks input
+ *
  * @n: checks n input
  */
 
@@ -17,4 +17,4 @@ void print_array(int *a, int n)
 		else
 			printf("%d, ", *(a + i));
 
-}	
+}
