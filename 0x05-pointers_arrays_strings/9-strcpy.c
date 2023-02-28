@@ -5,7 +5,7 @@
  * @dest: checks input
  *
  * @src: checks sourse
- * Return: string dest 
+ * Return: string dest
  */
 
 char *_strcpy(char *dest, char *src)
