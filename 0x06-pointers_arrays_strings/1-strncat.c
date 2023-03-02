@@ -21,10 +21,11 @@ char *_strncat(char *dest, char *src, int n)
 	j = 0;
 	if (len < n)
 	{
-		while (n != j)
+		while (len != j)
 		{
 			*(dest + i) = *(src + j);
 			j++;
+			i++;
 		}
 	}
 	else
@@ -35,6 +36,7 @@ char *_strncat(char *dest, char *src, int n)
 			break;
 		*(dest + i) = *(src + j);
 		j++;
+		i++;
 	}
 	}
 	return (dest);
