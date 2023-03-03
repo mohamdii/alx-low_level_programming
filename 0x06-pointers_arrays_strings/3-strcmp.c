@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _strcmp - compares two strings
  * @s1: string 1
@@ -10,27 +10,38 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, x, z, y;
+	int i, j, z, l, m;
 
-	y = 0;
-	x = 0;
+	z = 0;
 	i = 0;
 	j = 0;
 	while (s1[i] != '\0')
 	{
-		x = s1[i] + x;
+		l = s1[i] + l;
+		m = s2[j] + m;
+		z = l - m;
+		if (l == m)
+			continue;
+		else if (s2[j] == '\0' && s2[i] == '\0')
+			return (0);
+		return (z);
 		i++;
-	}
-	while (s2[j] != '\0')
-	{
-		y = s2[j] + y;
 		j++;
 	}
-	z = x - y;
-	if (i == j)
-		return (0);
-	else
+	z = 0;
+	while (s2[j] != '\0')
 	{
-		return (z);
+		l = s1[i] + l;
+		m = s2[j] + m;
+		z = l - m;
+		if (l == m)
+			continue;
+		else if (s2[j] == '\0' && s2[i] == '\0')
+			return (0);
+		if (z > 0 || z < 0)
+			return (z);
+		i++;
+		j++;
 	}
+	return (0);
 }
