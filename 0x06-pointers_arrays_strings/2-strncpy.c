@@ -11,21 +11,19 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
 	i = 0;
-	j = 0;
 	while (*(src + i) != '\0')
 	{
 		*(dest + i) = *(src + i);
 		if (i == n)
 			break;
 		i++;
-		j++;
 	}
 	while(*(dest + i) != '\0')
 	{
-		*(dest + i) = *(src + i);
+		*(dest + i) = *(dest + i);
 		i++;
 	}
 	if (i < n)
