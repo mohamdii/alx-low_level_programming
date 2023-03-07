@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - prints chess board
- * @a: characters 
+ * @a: characters
  */
 
 void print_chessboard(char (*a)[8])
