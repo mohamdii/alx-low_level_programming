@@ -3,16 +3,12 @@
 /**
  * main - main function
  * @argc: arguments number
+ * @argv: arguments
  *
  * Return: Integer
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-	}
-	printf("%d\n", i);
+	printf("%d\n", argc);
         return (0);
 }
