@@ -1,2 +1,7 @@
 #include "main.h"
-void _puts(char *s);
+#include <string.h>
+
+void _puts(char *s)
+{
+	puts(s);
+}
