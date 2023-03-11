@@ -4,10 +4,10 @@
  * main - main function
  * @arc: counter
  * @arv: vector
- * 
+ *
  * Return: Integer
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
