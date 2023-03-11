@@ -2,18 +2,17 @@
 
 /**
  * main - main function
- * @arc: counter
- * @arv: vector
- * 
+ * @argc: arguments number
+ *
  * Return: Integer
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv)
 {
 	int i;
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", argv[i]);
+		printf
 	}
-	return (0);
+        return (i);
 }
