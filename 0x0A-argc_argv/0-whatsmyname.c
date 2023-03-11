@@ -2,8 +2,8 @@
 
 /**
  * main - main function
- * @arc: counter
- * @arv: vector
+ * @argc: counter
+ * @argv: vector
  *
  * Return: Integer
  */
