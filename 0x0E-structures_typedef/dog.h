@@ -8,6 +8,9 @@
  *
  * Description: this is what could possibly be stored
  */
+/**
+ * dog_t - Typedef for struct dog
+ */
 typedef struct dog dog_t;
 struct dog
 {
