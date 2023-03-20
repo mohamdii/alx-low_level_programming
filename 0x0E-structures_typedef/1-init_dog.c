@@ -1,4 +1,5 @@
 #include "dog.h"
+
 /**
  * init_dog - intialize a struct dog variable
  * @d: struct dog
@@ -8,7 +9,6 @@
  *
  * Return: return void
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
