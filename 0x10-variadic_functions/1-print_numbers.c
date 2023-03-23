@@ -23,6 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else if (i < n - 1)
 			printf("%s ", separator);
 	}
-	printf("\n");
 	va_end(ptr);
+	printf("\n");
 }
