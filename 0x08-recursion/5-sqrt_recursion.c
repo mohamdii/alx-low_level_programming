@@ -3,7 +3,7 @@
  * sqcheck - function that computes sqrt
  * @number: is the number * number
  * @number1: is the result of the multiplication
- * return: the value of the square root
+ * Return: the value of the square root
  */
 int sqcheck(int number, int number1)
 {
