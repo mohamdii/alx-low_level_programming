@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * sqcheck - function that computes sqrt
+ * @number: is the number * number
+ * @number1: is the result of the multiplication
+ */
 int sqcheck(int number, int number1)
 {
 	if (number * number == number1)
@@ -16,6 +20,6 @@ int sqcheck(int number, int number1)
  */
 int _sqrt_recursion(int n)
 {
-	return(sqcheck(1, n));
+	return (sqcheck(1, n));
 
 }
