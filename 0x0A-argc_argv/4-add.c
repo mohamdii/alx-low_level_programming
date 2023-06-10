@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, x, sum, c;
+	int i, j, sum, c;
 	char *p;
 
 	sum = 0;
@@ -20,19 +20,18 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		p = argv[i];
-		x = 0;
-		while (p[x] != '\0')
+		j = 0;
+		while (p[j] != '\0')
 		{
-			if (p[x] < '0' || p[x] > '9')
+			if (p[j] < '0' || p[j] > '9')
 			{
 					printf("Error\n");
 					return (1);
 			}
-			x++;
+			j++;
 		}
 		i++;
 	}
-
 	for (i = 1; i < argc; i++)
 	{
 		c = atoi(argv[i]);
