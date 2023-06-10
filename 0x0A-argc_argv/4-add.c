@@ -22,16 +22,17 @@ int main(int argc, char *argv[])
 		p = argv[i];
 		x = 0;
 		while (p[x] != '\0')
+		{
+			if (p[x] < '0' || p[x] > '9')
 			{
-				if (p[x] < '0' || p[x] > '9')
-				{
-						printf("Error\n");
-						return (1);
-				}
-				x++;
+					printf("Error\n");
+					return (1);
 			}
-			i++;
+			x++;
+		}
+		i++;
 	}
+
 	for (i = 1; i < argc; i++)
 	{
 		c = atoi(argv[i]);
