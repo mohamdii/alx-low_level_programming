@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i, x, sum, c;
 	char *p;
-	
+
 	sum = 0;
 	c = 0;
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		x = 0;
 		while (p[x] != '\0')
 			{
-				if (p[x] < '0' || p[x] > '9')	
+				if (p[x] < '0' || p[x] > '9')
 				{
 						printf("Error\n");
 						return (1);
