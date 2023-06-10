@@ -1,2 +1,2 @@
 #include "main.h"
-char *_strcat(char *dest, char *src);
+void *_strcat(void){};

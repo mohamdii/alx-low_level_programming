@@ -1,2 +1,2 @@
 #include "main.h"
-int _abs(int n);
+void _abs(void){};
