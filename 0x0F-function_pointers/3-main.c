@@ -15,8 +15,11 @@ int main(int argc, char *argv[])
 	char op;
 	int (*f)(int, int);
 
-	if (argc == 0)
+	if (argc != 4)
+	{
 		printf("please insert a number");
+		exit(98);
+	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
 	op = *argv[2];
