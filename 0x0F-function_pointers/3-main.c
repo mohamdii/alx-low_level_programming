@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[3]);
 	op = *argv[2];
 	f = get_op_func(argv[2]);
-	result = f(num1, num2);
+
 	if (f == NULL)
 	{
 		printf("Error\n");
@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
+	result = f(num1, num2);
 	printf("%d\n", result);
 	return (0);
 }
