@@ -16,6 +16,11 @@ int main(int argc, char *argv[])
 	op = *argv[2];
 	f = get_op_func(argv[2]);
 	result = f(num1, num2);
+	if (f == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
 	if ((op == '/' || op == '%') && num2 == 0)
 	{
 		printf("Error\n");
