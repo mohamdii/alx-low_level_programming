@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include  "lists.h"
+/**
+ * print_dlistint - function that prints what is inside and counts
+ * 
+ * @h: a pointer that points to next
+ * Return: size_t type
+ */
 size_t print_dlistint(const dlistint_t *h)
 {
 	unsigned int i = 0;
@@ -9,7 +15,7 @@ size_t print_dlistint(const dlistint_t *h)
 		return 1;
 	while(h != NULL)
 	{
-		/**dlistint_t *head = (dlistint_t *)malloc(sizeof(dlistint_t));**/
+		printf("%d\n", h->n);
 		h = h->next;
 		i++; 
 	}
