@@ -3,7 +3,7 @@
 #include  "lists.h"
 /**
  * print_dlistint - function that prints what is inside and counts
- * 
+ *
  * @h: a pointer that points to next
  * Return: size_t type
  */
