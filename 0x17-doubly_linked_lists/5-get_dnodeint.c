@@ -5,6 +5,8 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	dlistint_t *point;
 	unsigned int count = 0;
 	
+	if(head == NULL)
+		return NULL;
 	point = head;
 	while(point->next != NULL)
 	{
