@@ -1,2 +1,2 @@
 #include "main.h"
-void _strcmp(void){};
+int _strcmp(char *s1, char *s2){};

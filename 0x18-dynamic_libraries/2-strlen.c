@@ -1,2 +1,2 @@
 #include "main.h"
-void _strlen(void){};
+int _strlen(char *s);

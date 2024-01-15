@@ -1,2 +1,2 @@
 #include "main.h"
-void *_strpbrk(void){};
+char *_strpbrk(char *s, char *accept){};

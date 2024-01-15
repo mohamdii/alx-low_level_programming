@@ -1,2 +1,2 @@
 #include "main.h"
-void *_strcpy(void){};
+char *_strncpy(char *dest, char *src, int n);

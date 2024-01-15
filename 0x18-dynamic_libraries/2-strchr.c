@@ -1,2 +1,2 @@
 #include "main.h"
-void *_strchr(void){};
+char *_strchr(char *s, char c);

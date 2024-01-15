@@ -1,2 +1,2 @@
 #include "main.h"
-void _atoi(void){};
+int _atoi(char *s);

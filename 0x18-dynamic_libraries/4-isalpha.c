@@ -1,2 +1,2 @@
 #include "main.h"
-void _isalpha(void){};
+int _isalpha(int c){};

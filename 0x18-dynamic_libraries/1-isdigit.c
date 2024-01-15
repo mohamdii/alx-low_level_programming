@@ -1,2 +1,2 @@
 #include "main.h"
-void _isdigit(void){};
+int _isdigit(int c){};

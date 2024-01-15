@@ -1,2 +1,2 @@
 #include "main.h"
-void *_strstr(void){};
+char *_strstr(char *haystack, char *needle);

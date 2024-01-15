@@ -1,2 +1,2 @@
 #include "main.h"
-void _islower(void){};
+int _islower(int c){};

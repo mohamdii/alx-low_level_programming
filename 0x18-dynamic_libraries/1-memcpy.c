@@ -1,2 +1,2 @@
 #include "main.h"
-void *_memcpy(void){};
+char *_memcpy(char *dest, char *src, unsigned int n){};

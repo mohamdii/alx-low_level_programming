@@ -1,2 +1,2 @@
 #include "main.h"
-void _strspn(void){};
+unsigned int _strspn(char *s, char *accept);
