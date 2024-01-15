@@ -1,3 +1,3 @@
 #include "main.h"
 
-void _isupper(void){};
+int _isupper(int c){};
