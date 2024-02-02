@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "hash_tables.h"
 #include <stdlib.h>
+/**
+ * hash_table_create - function that creates hash tables
+ *
+ * @size: input size of the array
+ * return: hash table struct
+ */
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *new_table = malloc(sizeof(hash_table_t));
