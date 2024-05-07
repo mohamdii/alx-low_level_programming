@@ -1,12 +1,10 @@
 #include "search_algos.h"
 #include <stdio.h>
 /**
- * binary_search - function that does binary
- * @array: array to be searched
- * @size: size of the array
- * @value: the value searched
- * 
- * Return: returns index of int type
+ * prin - function prints array
+ * @array: array to be printed
+ * @left: left of index
+ * @right: index
 */
 void prin(int *array, size_t left, size_t right)
 {
@@ -19,7 +17,14 @@ void prin(int *array, size_t left, size_t right)
     }
     printf("%d\n", array[right]);
 }
-
+/**
+ * binary_search - function that does binary
+ * @array: array to be searched
+ * @size: size of the array
+ * @value: the value searched
+ * 
+ * Return: returns index of int type
+*/
 int binary_search(int *array, size_t size, int value)
 {
     int mid, low, high;
