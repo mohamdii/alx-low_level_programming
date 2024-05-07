@@ -8,39 +8,30 @@
  * 
  * Return: returns index of int type
 */
+void prin(int *array, size_t left, size_t right)
+{
+    unsigned int i;
+
+    printf("Searching in array: ");
+    for(i = left; i < right; i++)
+    {
+        printf("%d, ", array[i]);
+    }
+    printf("%d\n", array[right]);
+}
+
 int binary_search(int *array, size_t size, int value)
 {
-    int i, mid, low, high;
-    size_t j;
+    int mid, low, high;
 
     if(array == NULL || size == 0)
         return -1;
     low = 0;
     high = size - 1;
-    printf("Searching in array: ");
-    for(j = 0; j < size; j++)
-    {
-        if(j == size - 1)
-        {
-            printf("%d\n", array[j]);
-            break;
-        }
-        printf("%d, ", array[j]);
-    }
     while(low <= high)
     {
-        printf("Searching in array: ");
+        prin(array, low, high);
         mid = (low + high) / 2;
-        for(i = 0; i < mid; i++)
-        {
-
-            if(i == mid - 1)
-            {
-                printf("%d\n", array[i]);
-                break;
-            }
-            printf("%d, ", array[i]);
-        }
         if(array[mid] == value)
         {
             return mid;
